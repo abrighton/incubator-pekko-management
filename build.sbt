@@ -18,6 +18,8 @@ sourceDistIncubating := true
 ThisBuild / resolvers += Resolver.jcenterRepo
 // TODO: Remove when Pekko has a proper release
 ThisBuild / resolvers += Resolver.ApacheMavenSnapshotsRepo
+ThisBuild / resolvers += "jitpack" at "https://jitpack.io"
+
 ThisBuild / updateOptions := updateOptions.value.withLatestSnapshots(false)
 
 // root
