@@ -85,7 +85,7 @@ object Dependencies {
     "org.apache.pekko" %% "pekko-actor" % pekkoVersion,
     "org.apache.pekko" %% "pekko-stream" % pekkoVersion,
     "com.github.apache.incubator-pekko-http" %% "pekko-http" % pekkoHttpVersion,
-    "org.apachcom.github.apache.incubator-pekko-httpe.pekko" %% "pekko-http-spray-json" % pekkoHttpVersion,
+    "com.github.apache.incubator-pekko-httpe.pekko" %% "pekko-http-spray-json" % pekkoHttpVersion,
     "org.apache.pekko" %% "pekko-testkit" % pekkoVersion % Test,
     "org.apache.pekko" %% "pekko-cluster" % pekkoVersion % Test,
     "com.github.apache.incubator-pekko-http" %% "pekko-http-testkit" % pekkoHttpVersion % Test,
